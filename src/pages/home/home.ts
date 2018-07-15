@@ -6,9 +6,14 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
+  icons: string[];
 
   constructor(public navCtrl: NavController) {
+    this.icons = ['gps'];
+  }
 
+  TabGpsIcon(){
+    
   }
 
 }
